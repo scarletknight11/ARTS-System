@@ -1,0 +1,217 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16015 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/ARTS System
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52293
+Successfully changed project path to: D:/ARTS System
+D:/ARTS System
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3076] Host "[IP] 192.168.1.162 [Port] 0 [Flags] 2 [Guid] 852810253 [EditorId] 852810253 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UA2QPC9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3076] Host "[IP] 192.168.1.162 [Port] 0 [Flags] 2 [Guid] 852810253 [EditorId] 852810253 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UA2QPC9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 110.32 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 1.16 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ARTS System/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX330 (ID=0x1d16)
+    Vendor:   NVIDIA
+    VRAM:     1982 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.004504 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 277 ms
+Refreshing native plugins compatible for Editor in 109.01 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Domain Reload Profiling:
+	ReloadAssembly (994ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (812ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (602ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (355ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006731 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 107.84 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.579 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1580ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1327ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (756ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (412ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5238 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (1.2 MB). Loaded Objects now: 5701.
+Memory consumption went from 196.2 MB to 195.0 MB.
+Total: 4.999200 ms (FindLiveObjects: 0.618000 ms CreateObjectMapping: 0.252900 ms MarkObjects: 3.391600 ms  DeleteObjects: 0.735100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3256.395934 seconds.
+  path: Packages/org.mixedrealitytoolkit.input/Assets/Prefabs/MRTK Interaction Manager.prefab
+  artifactKey: Guid(2d7353d30f9fe7e41bf30032876961a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.input/Assets/Prefabs/MRTK Interaction Manager.prefab using Guid(2d7353d30f9fe7e41bf30032876961a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6391469d5262bc0726a9bdbf1548d9') in 0.081469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Packages/org.mixedrealitytoolkit.input/Assets/Prefabs/MRTK LeftHand Controller.prefab
+  artifactKey: Guid(c89f12cb641c27e47b7b71af1d6518a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.input/Assets/Prefabs/MRTK LeftHand Controller.prefab using Guid(c89f12cb641c27e47b7b71af1d6518a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e91b51f831535f37276eb6341d4a759') in 0.230369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Packages/org.mixedrealitytoolkit.input/Assets/Prefabs/MRTK RightHand Controller.prefab
+  artifactKey: Guid(82333e6e543cb7e4dbd5b1d47aff3f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.input/Assets/Prefabs/MRTK RightHand Controller.prefab using Guid(82333e6e543cb7e4dbd5b1d47aff3f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a8be17e90928c699ba52e5175a7ca3') in 0.058528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.146229 seconds.
+  path: Packages/org.mixedrealitytoolkit.input/Assets/Input Actions/MRTK Default Left Controller.preset
+  artifactKey: Guid(85c0e78b94bcb984c9e778bf895996c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.input/Assets/Input Actions/MRTK Default Left Controller.preset using Guid(85c0e78b94bcb984c9e778bf895996c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3a5cfcd3417b629d3e062c79274fec') in 0.019524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/org.mixedrealitytoolkit.input/Assets/Input Actions/MRTK Default Right Controller.preset
+  artifactKey: Guid(e26c71481fdee9341b4c3967ba0338a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.input/Assets/Input Actions/MRTK Default Right Controller.preset using Guid(e26c71481fdee9341b4c3967ba0338a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a690ed9b402c243b44c8581ab28eeab6') in 0.016585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.916854 seconds.
+  path: Packages/org.mixedrealitytoolkit.input/Assets/Default Configs/MRTKSyntheticHandsConfig.asset
+  artifactKey: Guid(c45788af2ca823a4a904bf8762ff126d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.input/Assets/Default Configs/MRTKSyntheticHandsConfig.asset using Guid(c45788af2ca823a4a904bf8762ff126d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c225ddcbd192d12a6529448aa386229') in 0.015290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.525770 seconds.
+  path: Packages/org.mixedrealitytoolkit.standardassets/Prefabs/MRTK_BoundingBox_ScaleHandle.prefab
+  artifactKey: Guid(adecf6c468a401a4880321590db18ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.standardassets/Prefabs/MRTK_BoundingBox_ScaleHandle.prefab using Guid(adecf6c468a401a4880321590db18ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c0689d427578b22963b35767aa60a3') in 0.123865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/org.mixedrealitytoolkit.standardassets/Prefabs/MRTK_BoundingBox_ScaleHandle_Slate.prefab
+  artifactKey: Guid(b2a9a0c1d61ec264c80f9e6ae83d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.standardassets/Prefabs/MRTK_BoundingBox_ScaleHandle_Slate.prefab using Guid(b2a9a0c1d61ec264c80f9e6ae83d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c0511bb90c2329458586499840b46e') in 0.049341 seconds 

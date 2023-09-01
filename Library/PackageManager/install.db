@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.microsoft.mixedreality.openxr": {
+      "tarball": {
+        "hash": "2ee35a5c3070",
+        "mtime": 1693578179028,
+        "size": 11917159,
+        "localPath": "D:\\ARTS System\\Packages\\MixedReality\\com.microsoft.mixedreality.openxr-1.8.1.tgz"
+      }
+    },
+    "com.microsoft.mrtk.graphicstools.unity": {
+      "tarball": {
+        "hash": "770ae1f34e33",
+        "mtime": 1693578181667,
+        "size": 16285388,
+        "localPath": "D:\\ARTS System\\Packages\\MixedReality\\com.microsoft.mrtk.graphicstools.unity-0.5.12.tgz"
+      }
+    },
+    "com.microsoft.spatialaudio.spatializer.unity": {
+      "tarball": {
+        "hash": "f1bb3b9fa495",
+        "mtime": 1693578192408,
+        "size": 83220614,
+        "localPath": "D:\\ARTS System\\Packages\\MixedReality\\com.microsoft.spatialaudio.spatializer.unity-2.0.37.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.core": {
+      "tarball": {
+        "hash": "b62d60687f8c",
+        "mtime": 1693578176468,
+        "size": 130532,
+        "localPath": "D:\\ARTS System\\Packages\\MixedReality\\org.mixedrealitytoolkit.core-3.0.0-pre.18.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.input": {
+      "tarball": {
+        "hash": "681e0beebe87",
+        "mtime": 1693578176639,
+        "size": 2802702,
+        "localPath": "D:\\ARTS System\\Packages\\MixedReality\\org.mixedrealitytoolkit.input-3.0.0-pre.18.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.spatialmanipulation": {
+      "tarball": {
+        "hash": "9490f6fe4e6a",
+        "mtime": 1693578176519,
+        "size": 160454,
+        "localPath": "D:\\ARTS System\\Packages\\MixedReality\\org.mixedrealitytoolkit.spatialmanipulation-3.0.0-pre.18.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.standardassets": {
+      "tarball": {
+        "hash": "d2cc1424efea",
+        "mtime": 1693578178305,
+        "size": 4162286,
+        "localPath": "D:\\ARTS System\\Packages\\MixedReality\\org.mixedrealitytoolkit.standardassets-3.0.0-pre.18.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.uxcomponents": {
+      "tarball": {
+        "hash": "7dc8837add10",
+        "mtime": 1693578176461,
+        "size": 146101,
+        "localPath": "D:\\ARTS System\\Packages\\MixedReality\\org.mixedrealitytoolkit.uxcomponents-3.0.0-pre.18.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.uxcore": {
+      "tarball": {
+        "hash": "09190db5e9f1",
+        "mtime": 1693578175846,
+        "size": 100746,
+        "localPath": "D:\\ARTS System\\Packages\\MixedReality\\org.mixedrealitytoolkit.uxcore-3.0.0-pre.18.tgz"
+      }
+    }
+  }
+}
